@@ -1,0 +1,3 @@
+alan	10
+vital	8.5
+geof	5.0
