@@ -15,10 +15,10 @@ def separarmatriz(matriz):
 def multmatriz(matriz1,matriz2):
 	matriz3 = [[0,0,0],[0,0,0],[0,0,0]]
 
-	for i in range(3):
-		for j in range(3):
+	for i in range(len(matriz1)):
+		for j in range(len(matriz1[0])):
 			mult = 0
-			for k in range(3):
+			for k in range(len(matriz1)):
 				mult = mult + (int(matrizsep[i][k]) * int(matrizsep2[k][j]))
 				matriz3[i][j]= mult
 	return matriz3
