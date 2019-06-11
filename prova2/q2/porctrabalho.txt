@@ -1,0 +1,6 @@
+nº nome  porcentagem
+
+1 Antonio 13.39%
+2 Marcos 23.81%
+3 Julio 26.79%
+4 Andressa 23.81%
